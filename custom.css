@@ -1,0 +1,164 @@
+
+
+ @font-face {
+  font-family: timesbd;
+  src: url(timesbd.ttf);
+}
+
+.title{
+direction: ltr;
+font-size:100px;
+padding-left: 10px;
+line-height:10px;
+font-family:basim-marah;
+}
+
+div.text_cell pre.CodeMirror-line {
+direction:ltr;
+font-size:20px;
+color:Blue;
+line-height:40px;
+padding-right: 1cm;
+padding-left: 0cm;
+text-align:justify;
+font-family:amiri-quran;
+}
+.rendered_html {
+direction:ltr;
+font-size:20px;
+line-height:40px;
+padding-right: 1cm;
+padding-left: 0cm;
+text-align:justify;
+font-family:amiri-quran;
+}
+
+.rendered_html p {
+direction:ltr;
+font-size:20px;
+line-height:40px;
+padding-right: 1cm;
+padding-left: 1cm;
+text-align:justify;
+font-family:amiri-quran;
+}
+
+.rendered_html h1{
+direction: ltr;
+font-size:200%;
+text-align:center;
+padding-left: 55px;
+font-family:timesbd;
+}
+
+.rendered_html h2{
+direction: ltr;
+font-size:171%;
+padding-left: 55px;
+line-height:10px;
+font-family:Arslan;
+}
+
+.rendered_html h3{
+direction: ltr;
+font-size:141%;
+padding-left: 55px;
+line-height:10px;
+font-family:Arslan;
+}
+
+.rendered_html ul {
+    list-style-type: none;
+}
+
+.rendered_html ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -10px;
+}
+
+.English{
+direction:ltr;
+font-size:20px;
+line-height:40px;
+padding-right: 1cm;
+padding-left: 0cm;
+text-align:justify;
+font-family:amiri-quran;
+}
+
+.horizontal{
+height:2px;
+border:none;
+color:#333;
+background-color:#333;
+width:75%;
+}
+.jupyter-widgets{
+    font-size:20px;
+    direction:ltr;
+    margin-left:10px;
+    font-family:amiri-quran;
+        
+}
+.widget-radio-box input{
+    float:left;
+    direction:ltr;
+    margin: 0 calc( var(--jp-widgets-input-padding) * 2 ) 0 10px;
+    text-align:left;
+    height: 30px;
+}
+.widget-radio{
+    flex-direction: column;
+    width:unset;
+    
+}
+.widget-label{  
+    font-family:amiri-quran;
+    font-size:18px;
+    height: 40px;
+}
+
+.widget-radio-box label {
+    font-size:18px;
+    height: 30px;
+}
+
+.true-grade{
+    color:green;
+}
+.false-grade{
+    color:red;
+}
+label:lang(en){
+    direction:ltr;
+    text-align:left;
+}
+.s{
+    line-height:unset;
+    height:unset;
+}
+.CodeMirror-wrap {
+    font-size:16px;
+}
+
+.basic_table{
+    font-size:20px;
+    color:"green";
+}
+ol {
+    margin-left:10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2px;
+  padding: 2px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
